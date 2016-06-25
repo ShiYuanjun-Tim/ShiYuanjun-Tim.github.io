@@ -97,6 +97,9 @@
       {% if author.vine %}
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fa fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
       {% endif %}
+        {% if author.plunker %}
+        <li><a href="http://plnkr.co/users/{{ author.plunker }}"><i class="fa fa-fw fa-codepen" aria-hidden="true"></i> Plunker</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>
